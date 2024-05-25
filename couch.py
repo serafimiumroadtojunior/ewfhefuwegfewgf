@@ -1,10 +1,10 @@
 import psycopg2 as pc
 
 conn = pc.connect(
-    host='localhost',
-    user='postgres',  
-    dbname='postgres',
-    password='polet2008'
+    host='',
+    user='',  
+    dbname='',
+    password=''
 )
 
 cur = conn.cursor()
